@@ -1,0 +1,207 @@
+ body{
+    color: #40514E;
+    margin: 0px;
+    text-align: center;
+} 
+h1{
+    margin-top: 0px;
+    margin-bottom: 0;
+    padding-top: 80px;
+    display: inline-block;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+}
+h2{
+    font-family: 'Marck Script', cursive;
+    font-size: 2.5rem;
+    color: #66BFBF;
+}
+h3{
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.8rem;
+    color: #11999e;
+}
+a{
+    color:#11999e;
+    margin: 10px 20px;
+}
+p{
+    line-height: 2;
+    color: #666867;
+    font-size: large;
+}
+pre{
+    font-size: larger;
+}
+hr{
+    border-color: #85f7f7;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 6px;
+    width: 7%;
+    margin: 100px auto;
+}
+.about{
+    margin-bottom: 0;
+    font-weight: normal;
+    position: relative;
+
+}
+.intro{
+    width: 50%;
+    margin: auto;
+
+}
+.top_container{
+    background-color: #e4f9f5;
+    
+}
+.middle-container{
+    margin: 100px 0;
+}
+.top-cloud{
+    padding-top: 30px;
+    position: absolute;
+    right: 7%;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 7%;
+} 
+.mountain-img{
+    width: 75%;
+    padding-top: 50px;
+}
+.skills{
+    margin: auto;
+    width:50%;
+}
+.skill-row1{
+    margin: 100px auto;
+    text-align: left;
+}
+.skill-row2{
+    padding-top: 100px;
+}
+.WebDev-img{
+    width: 200px;
+    float: left;
+    padding-right: 30px;
+}
+.web-text{
+    position: relative;
+    top: 30px;
+}
+.code-text{
+    display: inline-block;
+    position: relative;
+    bottom: 100px;
+}
+.Coding-img{
+    width: 200px;
+    display: inline-block;
+}
+.small-screen{
+    visibility: hidden;
+}
+.bottom-container{
+    background-color: #66BFBF;   
+    padding-bottom: 20px;  
+}
+.contact-message{
+    width: 40%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 27px;
+    padding: 17px;
+    -webkit-box-shadow: 1px 1px 8px 2px #66BFBF;
+    -moz-box-shadow: 1px 1px 8px 2px #66BFBF;
+    box-shadow: 1px 1px 8px 2px #66BFBF;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    border: solid #9AFD99 1px;
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    text-decoration: none;
+ }
+ .copyright{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+ }
+ @media (max-width:950px){
+    h1{
+        padding-top: 120px;
+    }
+    h2.about{
+        margin-top: 0%;
+        margin-bottom: 50px;
+    }
+    .top-cloud{
+        width: 120px;
+        right: 0%;
+    }
+    .bottom-cloud{
+        width:120px;
+        left:2%;
+    }
+    .mountain-img{
+        width: 100%; 
+        padding-top: 100px;
+    }
+    .intro{
+        width: 60%;
+    }
+    hr{
+        margin: 40px auto 80px;
+    }
+    .skill{
+        width:80%;
+    }
+    .skill-row1,.skill-row2{
+        text-align: center;
+    }
+    .WebDev-img{
+        float:none;
+    }
+    .Coding-img{
+        float: none;
+    }
+    .small-screen{
+        visibility: visible;
+    }
+    .big-screen{
+        display: none;
+    }
+    .contact-message{
+    width: 75%;
+    }
+   .contact-me{
+    padding: 7%;
+    }
+}
