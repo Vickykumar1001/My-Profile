@@ -175,13 +175,13 @@ hr{
         padding-top: 100px;
     }
     .intro{
-        width: 60%;
+        width: 80%;
     }
     hr{
         margin: 40px auto 80px;
     }
     .skill{
-        width:80%;
+        width:85%;
     }
     .skill-row1,.skill-row2{
         text-align: center;
@@ -199,7 +199,7 @@ hr{
         display: none;
     }
     .contact-message{
-    width: 75%;
+    width: 80%;
     }
    .contact-me{
     padding: 7%;
