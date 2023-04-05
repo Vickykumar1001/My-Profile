@@ -162,6 +162,9 @@ hr{
         margin-top: 0%;
         margin-bottom: 50px;
     }
+    h3{
+        font-size: 1.5rem;
+    }
     .top-cloud{
         width: 120px;
         right: 0%;
@@ -180,8 +183,10 @@ hr{
     hr{
         margin: 40px auto 80px;
     }
-    .skill{
-        width:85%;
+    .skills{
+        width:100%;
+        padding:0;
+        margin:0;
     }
     .skill-row1,.skill-row2{
         text-align: center;
@@ -189,7 +194,11 @@ hr{
     .WebDev-img{
         float:none;
     }
+    .code-text{
+        display: block;
+    }
     .Coding-img{
+        margin:0;
         float: none;
     }
     .small-screen{
